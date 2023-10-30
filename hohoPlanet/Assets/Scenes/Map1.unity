@@ -176,6 +176,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5137491260699425488, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 5137491260699425488, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
       propertyPath: m_Name
       value: Exit
       objectReference: {fileID: 0}
@@ -185,11 +189,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5137491260699425494, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.39
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 5137491260699425494, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.31
+      value: -0.99
       objectReference: {fileID: 0}
     - target: {fileID: 5137491260699425494, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -225,15 +229,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5396975637267253724, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
       propertyPath: direction
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5396975637267253724, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
       propertyPath: sceneName
-      value: 
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 5396975637267253724, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
       propertyPath: doorNumber
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
