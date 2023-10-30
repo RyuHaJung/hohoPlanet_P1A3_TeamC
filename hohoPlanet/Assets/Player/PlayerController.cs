@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     //이동 속도
     public float speed = 3.0f;
     //애니메이션 이름
-    public string idleAnime = "PlayerIdle";     //정지 상태
+    //public string idleAnime = "PlayerIdle";     //정지 상태
     public string upAnime = "PlayerUp";         // 위
     public string downAnime = "PlayerDown";     // 아래
     public string rightAnime = "PlayerRight";   // 오른쪽
@@ -50,7 +50,6 @@ public class PlayerController : MonoBehaviour
         // 게임중이 아니거나 데미지를 받는 중엔 아무것도 하지 않는다.
         if (gameState != "playing" || inDamage)
         {
-            nowAnimation = "PlayerIdle";
             return;
         }
         if (isMoving == false)
