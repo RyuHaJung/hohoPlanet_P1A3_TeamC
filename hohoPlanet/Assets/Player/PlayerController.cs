@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
     //이동 속도
     public float speed = 3.0f;
     //애니메이션 이름
-    //public string idleAnime = "PlayerIdle";     //정지 상태
     public string upAnime = "PlayerUp";         // 위
     public string downAnime = "PlayerDown";     // 아래
     public string rightAnime = "PlayerRight";   // 오른쪽
@@ -40,8 +39,6 @@ public class PlayerController : MonoBehaviour
         oldAnimation = downAnime;
         //게임 상태를 플레이 중으로 하기
         gameState = "playing";
-        //HP 갱신
-        hp = PlayerPrefs.GetInt("PlayerHP");
     }
 
     // Update is called once per frame
@@ -57,7 +54,6 @@ public class PlayerController : MonoBehaviour
             axisH = Input.GetAxisRaw("Horizontal"); //좌우 키 입력
             axisV = Input.GetAxisRaw("Vertical");   //상하 키 입력
         }
-       
         //키 입력으로 이동 각도 구하기
         Vector2 fromPt = transform.position;
         Vector2 toPt = new Vector2(fromPt.x + axisH, fromPt.y + axisV);
@@ -153,6 +149,7 @@ public class PlayerController : MonoBehaviour
         }
         return angle;
     }
+
     //접촉 (물리)
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -160,6 +157,7 @@ public class PlayerController : MonoBehaviour
         {
             GetDamage(collision.gameObject);
         }
+
     }
 
     //데미지
@@ -183,8 +181,6 @@ public class PlayerController : MonoBehaviour
                 inDamage = true;
                 Invoke("DamageEnd", 0.25f);
 
-                //SE 재생(데미지)
-                //SoundManager.soundManager.SEPlay(SEType.GetDamage);
             }
             else
             {
@@ -210,7 +206,7 @@ public class PlayerController : MonoBehaviour
         //게임 오버 연출
         //=====================
         //플레이어 충돌 판정 비활성
-        GetComponent<CircleCollider2D>().enabled = false;
+        GetComponent<CapsuleCollider2D>().enabled = false;
         //이동 중지
         rbody.velocity = new Vector2(0, 0);
         //중력을 적용하여 플레이어를 위로 튀어오르게하는 연출
@@ -221,13 +217,18 @@ public class PlayerController : MonoBehaviour
         //1초후에 플레이어 캐릭터 제거하기
         Destroy(gameObject, 1.0f);
 
-        //BGM 정지
-        //SoundManager.soundManager.StopBgm();
-        //SE재생 (게임 오버)
-        //SoundManager.soundManager.SEPlay(SEType.GameOver);
     }
+
     public void IncreaseSpeed(float amount)
     {
         speed += amount;
     }
+
+    public void IncreaseAttack(int amount)
+    {
+        // 플레이어의 공격력을 증가시킨다.
+        // 예를 들어, 공격력 변수가 있다면 그 값을 증가시키면 된다.
+        // 예시: attackDamage += amount;
+    }
+
 }
