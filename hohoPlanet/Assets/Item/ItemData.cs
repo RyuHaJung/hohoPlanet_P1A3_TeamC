@@ -61,6 +61,12 @@ public class ItemData : MonoBehaviour
             //0.5초 뒤에 제거
             Destroy(gameObject, 0.5f);
 
+            //배치 Id 기록
+            SaveDataManager.SetArrangeId(arrangeId, gameObject.tag);
+
+            //SE 재생(아이템 획득)
+            //SoundManager.soundManager.SEPlay(SEType.ItemGet);
+
         }
     }
 }

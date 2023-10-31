@@ -39,6 +39,8 @@ public class PlayerController : MonoBehaviour
         oldAnimation = downAnime;
         //게임 상태를 플레이 중으로 하기
         gameState = "playing";
+        //HP 갱신
+        hp = PlayerPrefs.GetInt("PlayerHP");
     }
 
     // Update is called once per frame

@@ -28,6 +28,10 @@ public class Door : MonoBehaviour
                 ItemKeeper.hasKeys--;       //열쇠를 하나 감소
                 Destroy(this.gameObject);   //문 열기 (제거하기)
 
+                //배치 Id 기록
+                SaveDataManager.SetArrangeId(arrangeId, gameObject.tag);
+
+
             }
         }
     }

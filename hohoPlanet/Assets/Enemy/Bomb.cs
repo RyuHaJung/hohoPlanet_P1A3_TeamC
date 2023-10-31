@@ -8,6 +8,8 @@ public class Bomb : MonoBehaviour
     public GameObject itemPrefab; // 아이템 프리팹
     Rigidbody2D rbody;      // Rigidbody 2D
 
+    public int arrangeId = 0;   //배치 식별에 사용
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -37,6 +39,8 @@ public class Bomb : MonoBehaviour
                 // 0.5초 후에 제거
                 Destroy(gameObject, 0.05f);
 
+                //배치 Id 저장
+                SaveDataManager.SetArrangeId(arrangeId, gameObject.tag);
             }
         }
     }

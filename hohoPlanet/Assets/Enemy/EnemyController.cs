@@ -130,6 +130,10 @@ public class EnemyController : MonoBehaviour
                 //0.5초 후에 제거
                 Destroy(gameObject, 0.05f);
 
+                //배치 Id 저장
+                SaveDataManager.SetArrangeId(arrangeId, gameObject.tag);
+
+
             }
         }
     }

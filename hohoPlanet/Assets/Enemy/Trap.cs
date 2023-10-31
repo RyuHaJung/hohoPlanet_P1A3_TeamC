@@ -8,6 +8,8 @@ public class Trap : MonoBehaviour
     public GameObject itemPrefab; // 아이템 프리팹
     public Sprite newSprite; // 변경할 새로운 스프라이트 이미지
 
+    public int arrangeId = 0;   //배치 식별에 사용
+
     private SpriteRenderer spriteRenderer; // 스프라이트 렌더러
 
     private void Start()
@@ -49,6 +51,9 @@ public class Trap : MonoBehaviour
 
                 // 0.5초 후에 제거
                 Destroy(gameObject, 0.05f);
+
+                //배치 Id 저장
+                SaveDataManager.SetArrangeId(arrangeId, gameObject.tag);
 
             }
         }
