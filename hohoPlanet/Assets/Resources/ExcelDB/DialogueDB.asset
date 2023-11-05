@@ -38,7 +38,7 @@ MonoBehaviour:
     - index: 2
       speakerUIindex: 0
       name: "\uD638\uD638"
-      dialogue: "\uC7A0\uC2DC \uC0B0\uCC45\uC744 \uB098\uAC14\uB2E4 \uC654\uC5B4\uC694"
+      dialogue: "\uB124 \uC7A0\uC2DC \uC0B0\uCC45\uC744 \uB098\uAC14\uB2E4 \uC654\uC5B4\uC694"
       characterPath: Character/00000
       BackGroundPath: None
       tweenType: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
     - index: 75
       speakerUIindex: 1
       name: "\uC778\uAC041"
-      dialogue: "\uB85C\uBD07103-1177\uD638\uAC00 \uB9DD\uAC00\uC84C\uAD70"
+      dialogue: "\uB85C\uBD07103-1105\uD638\uC640 103-1106\uAC00 \uB9DD\uAC00\uC84C\uAD70"
       characterPath: 
       BackGroundPath: None
       tweenType: 0
@@ -821,8 +821,8 @@ MonoBehaviour:
     - index: 76
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uADF8\uB7EC\uAC8C \uC6D0\uB798\uB3C4 \uC880 \uACE0\uC7A5\uC774
-        \uB0AC\uC5B4\uC9C0\uB9CC \uC774\uC815\uB3C4\uB294 \uC544\uB2C8\uC600\uB294\uB370\u2026"
+      dialogue: "\uADF8\uB7EC\uAC8C \uC6D0\uB798\uB3C4 \uC880 \uACE0\uC7A5\uB09C
+        \uBD80\uBD84\uC774 \uC788\uC5C8\uC9C0\uB9CC \uC774\uC815\uB3C4\uB294 \uC544\uB2C8\uC600\uB294\uB370\u2026"
       characterPath: 
       BackGroundPath: None
       tweenType: 0
@@ -832,8 +832,9 @@ MonoBehaviour:
     - index: 77
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uC5B4\uCA0C\uB4E0 \uC774 \uD589\uC131\uC758 \uC790\uC6D0\uC5D0
-        \uB300\uD574\uC11C\uB294 \uAC70\uC758 \uB2E4 \uC870\uC0AC\uD588\uC5B4"
+      dialogue: "\uBB50 \uADF8\uB798\uB3C4 \uC774 \uD589\uC131\uC758 \uC9C0\uC5ED\uACFC
+        \uC9C0\uC5ED\uBCC4 \uC790\uC6D0\uC5D0 \uB300\uD574\uC11C\uB294 \uAC70\uC758
+        \uB2E4 \uC870\uC0AC\uD588\uC5B4"
       characterPath: 
       BackGroundPath: None
       tweenType: 0
@@ -853,8 +854,8 @@ MonoBehaviour:
     - index: 79
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uC6B0\uB9AC \uC9C0\uAD6C\uB85C \uB3CC\uC544\uAC00\uC11C\uB3C4 \uCDA9\uBD84\uC774
-        \uC0AC\uC6A9\uC774 \uAC00\uB2A5\uD55C \uC790\uC6D0\uB4E4\uC774\uC57C"
+      dialogue: "\uC6B0\uB9AC \uC9C0\uAD6C\uC5D0\uC11C\uB3C4 \uCDA9\uBD84\uC774 \uC0AC\uC6A9\uC774
+        \uAC00\uB2A5\uD55C \uC790\uC6D0\uB4E4\uC774\uC57C"
       characterPath: 
       BackGroundPath: None
       tweenType: 0
@@ -923,8 +924,7 @@ MonoBehaviour:
       speakerUIindex: 0
       name: "\uC778\uAC042"
       dialogue: "\uD558\uAE34 \uADF8\uB807\uAE34 \uD558\uC9C0 \uADF8\uB7FC \uC774\uC81C
-        \uBCF8\uBD80\uB85C \uB3CC\uC544\uAC00\uC790 \uC774 \uC9C0\uC5ED\uC5D0 \uAD00\uD55C
-        \uC815\uBCF4\uB294 \uAC70\uC758 \uB2E4 \uC5BB\uC5C8\uC5B4 "
+        \uBCF8\uBD80\uB85C \uB3CC\uC544\uAC00\uC790"
       characterPath: 
       BackGroundPath: None
       tweenType: 0
@@ -934,10 +934,9 @@ MonoBehaviour:
     - index: 86
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uC774\uC81C \uB2E4\uB978 \uC9C0\uC5ED\uC73C\uB85C \uAC00\uB3C4
-        \uB420 \uAC83 \uAC19\uC544 \uC774\uACF3\uC744 \uB9C8\uC9C0\uB9C9\uC73C\uB85C
-        \uC774 \uD589\uC131\uC758 \uC9C0\uC5ED\uBCC4 \uC790\uC6D0\uC5D0 \uB300\uD55C
-        \uC815\uBCF4\uB294 \uB2E4 \uC5BB\uC5C8\uC5B4  "
+      dialogue: "\uC774\uACF3\uC744 \uB9C8\uC9C0\uB9C9\uC73C\uB85C \uC774 \uD589\uC131\uC5D0
+        \uB300\uD574 \uD544\uC694\uD55C \uC815\uBCF4\uB294 \uB2E4 \uC5BB\uC5C8\uC5B4
+        \uC774\uC81C \uCC44\uAD74\uB9CC \uD558\uBA74\uB418 "
       characterPath: 
       BackGroundPath: None
       tweenType: 0
@@ -947,8 +946,9 @@ MonoBehaviour:
     - index: 87
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uC774\uC81C \uBCF8\uBD80\uB85C \uB3CC\uC544\uAC00\uC11C \uBCF8\uACA9\uC801\uC73C\uB85C
-        \uC790\uC6D0\uC744 \uCC44\uAD74\uD558\uC790"
+      dialogue: "\uBCF8\uBD80\uB85C \uB3CC\uC544\uAC00\uC11C \uBCF8\uACA9\uC801\uC73C\uB85C
+        \uC790\uC6D0\uC744 \uCC44\uAD74\uD558\uB294 \uACC4\uD68D\uC744 \uC2E4\uD589\uD558\uBA74
+        \uB420 \uAC83 \uAC19\uC544"
       characterPath: 
       BackGroundPath: None
       tweenType: 0
@@ -988,7 +988,7 @@ MonoBehaviour:
     - index: 91
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uC18C\uB9AC? \uBB50\uAC00?"
+      dialogue: "\uC18C\uB9AC? \uB09C \uBABB \uB4E4\uC5C8\uC5B4"
       characterPath: 
       BackGroundPath: None
       tweenType: 0
