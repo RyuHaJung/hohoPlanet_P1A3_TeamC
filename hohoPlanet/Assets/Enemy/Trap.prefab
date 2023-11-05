@@ -137,5 +137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 3
-  itemPrefab: {fileID: 971555631646319208, guid: dfb147444258861418a755ad653c45f2, type: 3}
+  itemPrefab: {fileID: 9200911270632544700, guid: 0aa6fd8e0956b284cac4dc90e25d7ab0, type: 3}
   newSprite: {fileID: 21300000, guid: 658db1f50cc1f3f4a84184325d118d47, type: 3}
+  arrangeId: 0
