@@ -3890,6 +3890,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5396975637267253724, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
+      propertyPath: direction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5396975637267253724, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
+      propertyPath: sceneName
+      value: Dialog_Scene1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5396975637267253724, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
+      propertyPath: doorNumber
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1774f2e5baca6c040a7825051404c20f, type: 3}
 --- !u!1 &1238631770

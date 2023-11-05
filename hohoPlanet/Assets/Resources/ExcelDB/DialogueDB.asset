@@ -20,7 +20,7 @@ MonoBehaviour:
       name: "\uC8FC\uD638 \uC871\uC7A5"
       dialogue: "\uD638\uD638\uC57C \uB3CC\uC544\uC654\uB290\uB0D0"
       characterPath: Character/00001
-      BackGroundPath: BackGround/00000
+      BackGroundPath: BackGround/00002
       tweenType: 0
       nextindex: 1
       selectIndex: -100
@@ -214,7 +214,7 @@ MonoBehaviour:
       dialogue: "\uB0B4\uAC00 \uAD1C\uD55C \uC758\uC2EC\uC744 \uD558\uB294 \uAC78\uC9C0\uB3C4
         \uBAA8\uB974\uC9C0\uB9CC\u2026"
       characterPath: Character/00001
-      BackGroundPath: BackGround/00001
+      BackGroundPath: None
       tweenType: 0
       nextindex: 19
       selectIndex: -100
@@ -370,7 +370,7 @@ MonoBehaviour:
       dialogue: "\uC6B0\uB9AC \uD589\uC131\uC758 \uBD80\uC871\uB4E4\uC774 \uB300\uB300\uB85C
         \uBD80\uC871\uC744 \uC9C0\uD0A4\uB294 \uB370 \uC774\uC6A9\uD55C \uD798\uC774\uB780\uB2E4"
       characterPath: Character/00001
-      BackGroundPath: BackGround/00001
+      BackGroundPath: None
       tweenType: 0
       nextindex: 34
       selectIndex: -100
@@ -381,7 +381,7 @@ MonoBehaviour:
       dialogue: "\uC774 \uD798\uC73C\uB85C \uC790\uC2E0\uACFC, \uBD80\uC871\uC744
         \uC9C0\uCF1C\uC8FC\uB834 "
       characterPath: Character/00001
-      BackGroundPath: BackGround/00001
+      BackGroundPath: None
       tweenType: 0
       nextindex: 35
       selectIndex: -100
@@ -395,13 +395,13 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 36
       selectIndex: -100
-      nextScene: None
+      nextScene: Map1
     - index: 36
       speakerUIindex: 0
       name: "\uD638\uD638"
       dialogue: "\uC73C\uC73C \uC544\uD30C\uB77C\u2026"
       characterPath: Character/00000
-      BackGroundPath: None
+      BackGroundPath: BackGround/00001
       tweenType: 0
       nextindex: 37
       selectIndex: -100
@@ -426,15 +426,15 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 39
       selectIndex: -100
-      nextScene: None
+      nextScene: Map2
     - index: 39
       speakerUIindex: 0
       name: "\uD638\uD638"
       dialogue: "\uD5C9\uD5C9 \uB0B4 \uC0DD\uAC01\uBCF4\uB2E4 \uC591\uC774 \uB9CE\uC558\uC5B4,
-        \uC800\uB7F0 \uC704\uD5D8\uD558\uACE0 \uC774\uC0C1\uD55C \uBB3C\uAC74\uB4E4\uC774
-        \uC232\uC18D\uC5D0 \uB110\uB824\uC788\uACE0 "
+        \uC65C \uC800\uB7F0 \uC704\uD5D8\uD558\uACE0 \uC774\uC0C1\uD55C \uBB3C\uAC74\uB4E4\uC774
+        \uC232\uC18D\uC5D0 \uB110\uB824\uC788\uB294 \uAC70\uC9C0?"
       characterPath: Character/00000
-      BackGroundPath: None
+      BackGroundPath: BackGround/00001
       tweenType: 0
       nextindex: 40
       selectIndex: -100
@@ -442,8 +442,8 @@ MonoBehaviour:
     - index: 40
       speakerUIindex: 0
       name: "\uD638\uD638"
-      dialogue: "\uC5B4\uB5A4 \uBB3C\uCCB4\uAC00 \uC232\uC18D\uC744 \uB9C9\uACE0
-        \uC788\uC5C8\uC9C0 "
+      dialogue: "\uADF8\uB9AC\uACE0 \uC232\uC18D\uC744 \uB9C9\uACE0 \uC788\uB358\uAC74
+        \uB3C4\uB300\uCCB4 \uBB58\uAE4C?"
       characterPath: Character/00000
       BackGroundPath: None
       tweenType: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
       name: "\uD638\uD638"
       dialogue: "\uBB34\uC2A8 \uC18C\uB9AC\uC9C0? \uBB50\uAC00 \uC704\uC774\uC789\uAC70\uB838\uB294\uB370?"
       characterPath: Character/00000
-      BackGroundPath: BackGround/00001
+      BackGroundPath: None
       tweenType: 0
       nextindex: 47
       selectIndex: -100
@@ -525,14 +525,14 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 48
       selectIndex: -100
-      nextScene: None
+      nextScene: Map4
     - index: 48
       speakerUIindex: 0
       name: "\uD638\uD638"
-      dialogue: "\uBB50\uC9C0? \uAE30\uC874\uAC83\uB4E4\uACFC\uB294 \uB2E4\uB974\uAC8C
-        \uC6C0\uC9C1\uC600\uC5B4!"
+      dialogue: "\uC800 \u3148\uC800\uAC74 \uB3C4\uB300\uCCB4 \uBB50\uC9C0?! \uC0B4\uC544\uC788\uC9C0\uB3C4
+        \uC54A\uC740\uB370 \uC6C0\uC9C1\uC600\uC5B4!"
       characterPath: Character/00000
-      BackGroundPath: None
+      BackGroundPath: BackGround/00001
       tweenType: 0
       nextindex: 49
       selectIndex: -100
@@ -540,7 +540,8 @@ MonoBehaviour:
     - index: 49
       speakerUIindex: 0
       name: "\uD638\uD638"
-      dialogue: "\uC5B4\uB5BB\uAC8C \uD574\uC57C\uD558\uC9C0 \uC73C\uC73C "
+      dialogue: "\uB9C8\uC744\uB85C \uB3CC\uC544\uAC00\uC57C\uD558\uB098? \uD558\uC9C0\uB9CC
+        \uC544\uC9C1 \uC778\uAC04\uB4E4\uC5D0 \uB300\uD55C \uB2E8\uC11C\uB294 \uBABB\uCC3E\uC558\uB294\uB370\u2026"
       characterPath: Character/00000
       BackGroundPath: None
       tweenType: 0
@@ -550,7 +551,7 @@ MonoBehaviour:
     - index: 50
       speakerUIindex: 0
       name: "\uD638\uD638"
-      dialogue: "\uC77C\uB2E8 \uC5B4\uC11C \uB9C8\uC744\uB85C \uB3CC\uC544\uAC00\u3147"
+      dialogue: "\uC5B4\uB5BB\uAC8C \uD574\uC57C\uD558\uC9C0 \uC73C\uC73C"
       characterPath: Character/00000
       BackGroundPath: None
       tweenType: 0
@@ -572,7 +573,7 @@ MonoBehaviour:
       name: "\uD638\uD638"
       dialogue: "\uC18C\uB9AC\uAC00\u2026.\uB354 \uCEE4\uC84C\uC5B4!"
       characterPath: Character/00000
-      BackGroundPath: BackGround/00001
+      BackGroundPath: None
       tweenType: 0
       nextindex: 53
       selectIndex: -100
@@ -582,7 +583,7 @@ MonoBehaviour:
       name: "\uD638\uD638"
       dialogue: "\uADFC\uCC98\uC5D0 \uC5BC\uB9C8\uB098 \uB354 \uC788\uB294 \uAC70\uC9C0?"
       characterPath: Character/00000
-      BackGroundPath: BackGround/00001
+      BackGroundPath: None
       tweenType: 0
       nextindex: 54
       selectIndex: -100
@@ -636,7 +637,7 @@ MonoBehaviour:
         \uB2E4 \uCC98\uB9AC \uD55C \uAC83 \uAC19\uC73C\uB2C8\uAE4C \uC774\uC820 \uC815\uB9D0
         \uB3CC\uC544\uAC00\uC57C\uACA0\uC5B4"
       characterPath: Character/00000
-      BackGroundPath: BackGround/00001
+      BackGroundPath: None
       tweenType: 0
       nextindex: 59
       selectIndex: -100
@@ -646,7 +647,7 @@ MonoBehaviour:
       name: ???
       dialogue: "\uC090\uBE45 \uC790\uC6D0.. \uC218\uC9D1 \uD55C\uB2E4\u2026 \uC790\uC6B0\uC5B8\uC73C\u2026\u3145\uC6B0\uC774\uC9D1\u2026"
       characterPath: 
-      BackGroundPath: BackGround/00001
+      BackGroundPath: None
       tweenType: 0
       nextindex: 60
       selectIndex: -100
