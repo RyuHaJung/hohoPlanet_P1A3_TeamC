@@ -1040,11 +1040,11 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 96
-      speakerUIindex: 1
+      speakerUIindex: 0
       name: 
       dialogue: "\uC8FC\uD638\uB9C8\uC744"
       characterPath: 
-      BackGroundPath: None
+      BackGroundPath: BackGround/00002
       tweenType: 0
       nextindex: 97
       selectIndex: -100
@@ -1259,7 +1259,7 @@ MonoBehaviour:
       speakerUIindex: 0
       name: 
       dialogue: to be continued
-      characterPath: 
+      characterPath: None
       BackGroundPath: None
       tweenType: 0
       nextindex: 117
