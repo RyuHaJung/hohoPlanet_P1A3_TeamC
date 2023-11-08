@@ -783,7 +783,7 @@ MonoBehaviour:
       speakerUIindex: 1
       name: ???
       dialogue: "\uC774 \uD589\uC131 @$^%&$ \uC218\uC9D1#%@$%"
-      characterPath: 
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 73
@@ -813,7 +813,7 @@ MonoBehaviour:
       speakerUIindex: 1
       name: "\uC778\uAC041"
       dialogue: "\uB85C\uBD07103-1105\uD638\uC640 103-1106\uAC00 \uB9DD\uAC00\uC84C\uAD70"
-      characterPath: 
+      characterPath: Character/00005
       BackGroundPath: None
       tweenType: 0
       nextindex: 76
@@ -822,9 +822,10 @@ MonoBehaviour:
     - index: 76
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uADF8\uB7EC\uAC8C \uC6D0\uB798\uB3C4 \uC880 \uACE0\uC7A5\uB09C
-        \uBD80\uBD84\uC774 \uC788\uC5C8\uC9C0\uB9CC \uC774\uC815\uB3C4\uB294 \uC544\uB2C8\uC600\uB294\uB370\u2026"
-      characterPath: 
+      dialogue: "\uD750\uC74C~? \uADF8\uB7EC\uAC8C \uC6D0\uB798\uB3C4 \uC880 \uACE0\uC7A5\uB09C
+        \uBD80\uBD84\uC774 \uC788\uC5C8\uC9C0\uB9CC \uC774\uC815\uB3C4\uB294 \uC544\uB2C8\uC600\uB294\uB370
+        \uB9D0\uC774\uC57C"
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 77
@@ -836,7 +837,7 @@ MonoBehaviour:
       dialogue: "\uBB50 \uADF8\uB798\uB3C4 \uC774 \uD589\uC131\uC758 \uC9C0\uC5ED\uACFC
         \uC9C0\uC5ED\uBCC4 \uC790\uC6D0\uC5D0 \uB300\uD574\uC11C\uB294 \uAC70\uC758
         \uB2E4 \uC870\uC0AC\uD588\uC5B4"
-      characterPath: 
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 78
@@ -845,8 +846,8 @@ MonoBehaviour:
     - index: 78
       speakerUIindex: 1
       name: "\uC778\uAC041"
-      dialogue: "\uADF8\uB798? \uACB0\uACFC\uB294?"
-      characterPath: 
+      dialogue: "\uADF8\uB7F0\uAC00? \uACB0\uACFC\uB294 \uC5B4\uB5BB\uC9C0?"
+      characterPath: Character/00005
       BackGroundPath: None
       tweenType: 0
       nextindex: 79
@@ -855,9 +856,9 @@ MonoBehaviour:
     - index: 79
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uC6B0\uB9AC \uC9C0\uAD6C\uC5D0\uC11C\uB3C4 \uCDA9\uBD84\uC774 \uC0AC\uC6A9\uC774
-        \uAC00\uB2A5\uD55C \uC790\uC6D0\uB4E4\uC774\uC57C"
-      characterPath: 
+      dialogue: "\uD06C\uD06C\uD06C \uC6B0\uB9AC \uC9C0\uAD6C\uC5D0\uC11C\uB3C4 \uCDA9\uBD84\uC774
+        \uC0AC\uC6A9\uC774 \uAC00\uB2A5\uD55C \uC790\uC6D0\uB4E4\uC774\uC57C"
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 80
@@ -867,8 +868,8 @@ MonoBehaviour:
       speakerUIindex: 0
       name: "\uC778\uAC042"
       dialogue: "\uC9C0\uAD6C\uC758 \uC5D0\uB108\uC9C0 \uACE0\uAC08 \uC0AC\uD0DC\uC5D0
-        \uCDA9\uBD84\uD55C \uD574\uACB0\uCC45\uC774 \uB420 \uAC83 \uAC19\uC544"
-      characterPath: 
+        \uCDA9\uBD84\uD55C \uD574\uACB0\uCC45\uC774 \uB420 \uAC83 \uAC19\uB2E4\uAD6C"
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 81
@@ -877,10 +878,10 @@ MonoBehaviour:
     - index: 81
       speakerUIindex: 1
       name: "\uC778\uAC041"
-      dialogue: "\uADF8\uB798 \uADF8\uB7FC \uC774 \uD589\uC131\uC758 \uC6D0\uC8FC\uBBFC\uB4E4\uC774
+      dialogue: "\uADF8\uB807\uAD70, \uADF8\uB7FC \uC774 \uD589\uC131\uC758 \uC6D0\uC8FC\uBBFC\uB4E4\uC774
         \uC54C\uC544\uCC28\uB9AC\uAE30 \uC804\uC5D0 \uCD5C\uB300\uD55C \uB9CE\uC740
-        \uC790\uC6D0\uC744 \uCC44\uAD74\uD558\uC790\uACE0"
-      characterPath: 
+        \uC790\uC6D0\uC744 \uCC44\uAD74\uD558\uC9C0"
+      characterPath: Character/00005
       BackGroundPath: None
       tweenType: 0
       nextindex: 82
@@ -889,9 +890,9 @@ MonoBehaviour:
     - index: 82
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uADFC\uB370 \uB9CC\uC57D \uC6D0\uC8FC\uBBFC\uB4E4\uC774 \uC54C\uAC8C
-        \uB418\uBA74 \uC5B4\uB5BB\uAC8C\uD558\uC9C0?"
-      characterPath: 
+      dialogue: "\uC88B\uC9C0 \uC88B\uC544 ...\uADFC\uB370 \uB9CC\uC57D \uC6D0\uC8FC\uBBFC\uB4E4\uC774
+        \uC54C\uAC8C \uB418\uBA74 \uC5B4\uB5BB\uAC8C\uD558\uC9C0?"
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 83
@@ -902,8 +903,8 @@ MonoBehaviour:
       name: "\uC778\uAC041"
       dialogue: "\uD558! \uC800 \uCC29\uD574\uBE60\uC9C0\uACE0 \uBA4D\uCCAD\uD55C
         \uB188\uB4E4\uC740 \uC6B0\uB9AC\uC758 \uD5C8\uBB34\uB9F9\uB791\uD55C \uC18C\uB9AC\uB3C4
-        \uBBFF\uC5C8\uC5B4"
-      characterPath: 
+        \uBBFF\uC5C8\uB2E4"
+      characterPath: Character/00005
       BackGroundPath: None
       tweenType: 0
       nextindex: 84
@@ -914,8 +915,8 @@ MonoBehaviour:
       name: "\uC778\uAC041"
       dialogue: "\uADF8\uB9AC\uACE0 \uB9CC\uC57D \uC54C\uAC8C \uB418\uB354\uB77C\uB3C4
         \uC6B0\uB9AC\uAC00 \uAC00\uC9C0\uACE0 \uC788\uB294 \uC7A5\uBE44\uB4E4\uC744
-        \uC0AC\uC6A9\uD574 \uBAA8\uB450 \uCC98\uB9AC\uD558\uBA74 \uADF8\uB9CC\uC774\uC57C"
-      characterPath: 
+        \uC0AC\uC6A9\uD574 \uBAA8\uB450 \uCC98\uB9AC\uD558\uBA74 \uADF8\uB9CC\uC774\uC9C0"
+      characterPath: Character/00005
       BackGroundPath: None
       tweenType: 0
       nextindex: 85
@@ -924,9 +925,9 @@ MonoBehaviour:
     - index: 85
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uD558\uAE34 \uADF8\uB807\uAE34 \uD558\uC9C0 \uADF8\uB7FC \uC774\uC81C
-        \uBCF8\uBD80\uB85C \uB3CC\uC544\uAC00\uC790"
-      characterPath: 
+      dialogue: "\uD06C\uD06C\uD06C \uD558\uAE34 \uADF8\uB807\uAE34 \uD558\uC9C0
+        \uADF8\uB7FC \uC774\uC81C \uBCF8\uBD80\uB85C \uB3CC\uC544\uAC00\uC790\uAD6C"
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 86
@@ -936,9 +937,9 @@ MonoBehaviour:
       speakerUIindex: 0
       name: "\uC778\uAC042"
       dialogue: "\uC774\uACF3\uC744 \uB9C8\uC9C0\uB9C9\uC73C\uB85C \uC774 \uD589\uC131\uC5D0
-        \uB300\uD574 \uD544\uC694\uD55C \uC815\uBCF4\uB294 \uB2E4 \uC5BB\uC5C8\uC5B4
-        \uC774\uC81C \uCC44\uAD74\uB9CC \uD558\uBA74\uB418 "
-      characterPath: 
+        \uB300\uD574 \uD544\uC694\uD55C \uC815\uBCF4\uB294 \uB2E4 \uC5BB\uC5C8\uC73C\uB2C8\uAE4C
+        \uB9D0\uC774\uC57C"
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 87
@@ -947,10 +948,10 @@ MonoBehaviour:
     - index: 87
       speakerUIindex: 0
       name: "\uC778\uAC042"
-      dialogue: "\uBCF8\uBD80\uB85C \uB3CC\uC544\uAC00\uC11C \uBCF8\uACA9\uC801\uC73C\uB85C
-        \uC790\uC6D0\uC744 \uCC44\uAD74\uD558\uB294 \uACC4\uD68D\uC744 \uC2E4\uD589\uD558\uBA74
-        \uB420 \uAC83 \uAC19\uC544"
-      characterPath: 
+      dialogue: "\uB0A8\uC740\uAC74 \uC774\uC81C \uBCF8\uBD80\uB85C \uB3CC\uC544\uAC00\uC11C
+        \uBCF8\uACA9\uC801\uC73C\uB85C \uACC4\uD68D\uC744 \uC2E4\uD589\uD558\uB294
+        \uAC83 \uBFD0"
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 88
@@ -960,7 +961,7 @@ MonoBehaviour:
       speakerUIindex: 1
       name: "\uC778\uAC041"
       dialogue: "\uADF8\uB798 \uADF8\uB7FC \uACE7 \uCCA0\uC218\uD558\uC9C0"
-      characterPath: 
+      characterPath: Character/00005
       BackGroundPath: None
       tweenType: 0
       nextindex: 89
@@ -980,7 +981,7 @@ MonoBehaviour:
       speakerUIindex: 1
       name: "\uC778\uAC041"
       dialogue: "\uBC29\uAE08 \uBB34\uC2A8 \uC18C\uB9AC \uBABB\uB4E4\uC5C8\uB098?"
-      characterPath: 
+      characterPath: Character/00005
       BackGroundPath: None
       tweenType: 0
       nextindex: 91
@@ -990,7 +991,7 @@ MonoBehaviour:
       speakerUIindex: 0
       name: "\uC778\uAC042"
       dialogue: "\uC18C\uB9AC? \uB09C \uBABB \uB4E4\uC5C8\uC5B4"
-      characterPath: 
+      characterPath: Character/00004
       BackGroundPath: None
       tweenType: 0
       nextindex: 92
@@ -1001,17 +1002,17 @@ MonoBehaviour:
       name: "\uC778\uAC041"
       dialogue: "\uD760\u2026 \uC544\uB2C8\uB2E4 \uC798\uBABB \uB4E4\uC740 \uBAA8\uC591\uC774\uAD70
         \uAC00\uC9C0"
-      characterPath: 
+      characterPath: Character/00005
       BackGroundPath: None
       tweenType: 0
       nextindex: 93
       selectIndex: -100
       nextScene: None
     - index: 93
-      speakerUIindex: 0
+      speakerUIindex: 1
       name: 
       dialogue: "\uC778\uAC04\uB4E4\uC774 \uB3CC\uC544\uAC00\uACE0 \uB09C \uD6C4"
-      characterPath: 
+      characterPath: Character/00006
       BackGroundPath: None
       tweenType: 0
       nextindex: 94
@@ -1040,10 +1041,10 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 96
-      speakerUIindex: 0
+      speakerUIindex: 1
       name: 
       dialogue: "\uC8FC\uD638\uB9C8\uC744"
-      characterPath: 
+      characterPath: Character/00006
       BackGroundPath: BackGround/00002
       tweenType: 0
       nextindex: 97
