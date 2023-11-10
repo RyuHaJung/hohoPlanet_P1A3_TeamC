@@ -32389,7 +32389,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -40576,6 +40576,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5710080329926134308, guid: a1f2712593833984fa350a3ba28ed86a, type: 3}
+      propertyPath: hp
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8857452712737241074, guid: a1f2712593833984fa350a3ba28ed86a, type: 3}
       propertyPath: m_Name
       value: Boss2
