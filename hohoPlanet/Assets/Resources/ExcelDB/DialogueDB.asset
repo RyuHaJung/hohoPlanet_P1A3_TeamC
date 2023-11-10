@@ -560,7 +560,7 @@ MonoBehaviour:
     - index: 51
       speakerUIindex: 1
       name: ??
-      dialogue: "\uC704\uC774\uC774\uC774\uC774\uC774\uC774\uC774\uC789!!!"
+      dialogue: "\uC704\uC774\uC774\uC774\uC774\uC774\uC774\uC774\uC789"
       characterPath: Character/00002
       BackGroundPath: None
       tweenType: 0
@@ -600,7 +600,7 @@ MonoBehaviour:
     - index: 55
       speakerUIindex: 1
       name: ??
-      dialogue: "\uC704\uC6B0\uC6B0\uC6C5 \uC704\uC774\uC774\uC774\uC774\uC774\uC789!!!"
+      dialogue: "\uC704\uC6B0\uC6B0\uC6C5 \uC704\uC774\uC774\uC774\uC774\uC774\uC789"
       characterPath: Character/00002
       BackGroundPath: None
       tweenType: 0
@@ -610,7 +610,7 @@ MonoBehaviour:
     - index: 56
       speakerUIindex: 0
       name: "\uD638\uD638"
-      dialogue: "\uC73C\uC544 \uB4E4\uCF30\uB2E4"
+      dialogue: "\uC73C\uC544 \uB4E4\uCF30\uB2E4!!!"
       characterPath: Character/00000
       BackGroundPath: BackGround/00001
       tweenType: 0
@@ -695,7 +695,7 @@ MonoBehaviour:
     - index: 64
       speakerUIindex: 0
       name: "\uD638\uD638"
-      dialogue: "\uD574\uCE58\uC6E0\uB098?"
+      dialogue: "\uD574\uCE58\uC6E0\uB098? \uADFC\uB370 \uC65C \uB2E4\uC2DC \uB9D0\uC18C\uB9AC\uAC00\u2026"
       characterPath: Character/00000
       BackGroundPath: BackGround/00001
       tweenType: 0
@@ -705,9 +705,8 @@ MonoBehaviour:
     - index: 65
       speakerUIindex: 1
       name: ???
-      dialogue: "\uC090\uBE45 \uC678\uACC4 \uC0DD\uBA85\uCCB4 \u3142\uBC1C\uACAC
-        \uBC1C\uACAC\u2026"
-      characterPath: Character/00003
+      dialogue: "\u2026\uC124\uB9C8, \uB354 \uC788\uB294 \uAC74 \uC544\uB2C8\uACA0\uC9C0..."
+      characterPath: Character/00000
       BackGroundPath: BackGround/00001
       tweenType: 0
       nextindex: 66
@@ -716,8 +715,9 @@ MonoBehaviour:
     - index: 66
       speakerUIindex: 0
       name: "\uD638\uD638"
-      dialogue: "\uC5B4?"
-      characterPath: Character/00000
+      dialogue: "\uC090\uBE45 \uC678\uACC4 \uC0DD\uBA85\uCCB4 \u3142\uBC1C\uACAC
+        \u314A\u3153\uB9AC \uC81C\uAC70\u2026"
+      characterPath: Character/00003
       BackGroundPath: BackGround/00001
       tweenType: 0
       nextindex: 67
