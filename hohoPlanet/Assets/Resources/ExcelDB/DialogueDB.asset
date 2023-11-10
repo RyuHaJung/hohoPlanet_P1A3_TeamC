@@ -645,7 +645,7 @@ MonoBehaviour:
       speakerUIindex: 1
       name: ???
       dialogue: "\uC090\uBE45 \uC790\uC6D0.. \uC218\uC9D1 \uD55C\uB2E4\u2026 \uC790\uC6B0\uC5B8\uC73C\u2026\u3145\uC6B0\uC774\uC9D1\u2026"
-      characterPath: Character/00003
+      characterPath: Character/00006
       BackGroundPath: None
       tweenType: 0
       nextindex: 60
@@ -695,7 +695,7 @@ MonoBehaviour:
     - index: 64
       speakerUIindex: 0
       name: "\uD638\uD638"
-      dialogue: "\uD574\uCE58\uC6E0\uB098? \uADFC\uB370 \uC65C \uB2E4\uC2DC \uB9D0\uC18C\uB9AC\uAC00\u2026"
+      dialogue: "\uD574\uCE58\uC6E0\uB098? "
       characterPath: Character/00000
       BackGroundPath: BackGround/00001
       tweenType: 0
@@ -703,9 +703,10 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 65
-      speakerUIindex: 1
-      name: ???
-      dialogue: "\u2026\uC124\uB9C8, \uB354 \uC788\uB294 \uAC74 \uC544\uB2C8\uACA0\uC9C0..."
+      speakerUIindex: 0
+      name: "\uD638\uD638"
+      dialogue: "\uADFC\uB370 \uC65C \uB2E4\uC2DC \uB9D0\uC18C\uB9AC\uAC00\u2026
+        \uB354 \uC788\uB294 \uAC74 \uC544\uB2C8\uACA0\uC9C0?..."
       characterPath: Character/00000
       BackGroundPath: BackGround/00001
       tweenType: 0
@@ -713,8 +714,8 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 66
-      speakerUIindex: 0
-      name: "\uD638\uD638"
+      speakerUIindex: 1
+      name: ???
       dialogue: "\uC090\uBE45 \uC678\uACC4 \uC0DD\uBA85\uCCB4 \u3142\uBC1C\uACAC
         \u314A\u3153\uB9AC \uC81C\uAC70\u2026"
       characterPath: Character/00003
@@ -811,7 +812,7 @@ MonoBehaviour:
     - index: 75
       speakerUIindex: 1
       name: "\uC778\uAC041"
-      dialogue: "\uB85C\uBD07103-1105\uD638\uC640 103-1106\uAC00 \uB9DD\uAC00\uC84C\uAD70"
+      dialogue: "\uB85C\uBD07103-1105\uD638\uC640 103-1111\uAC00 \uB9DD\uAC00\uC84C\uAD70"
       characterPath: Character/00005
       BackGroundPath: None
       tweenType: 0
